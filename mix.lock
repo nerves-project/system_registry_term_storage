@@ -1,0 +1,1 @@
+%{"system_registry": {:git, "https://github.com/nerves-project/system_registry.git", "5449f723fd508af4ba567adb96159040e2e79fb4", [branch: "remove_term_storage"]}}
