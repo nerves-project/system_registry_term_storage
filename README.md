@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/nerves-project/system_registry_term_storage.svg?style=svg)](https://circleci.com/gh/nerves-project/system_registry_term_storage)
+
 # SystemRegistry.TermStorage
 
 Simple term storage for `SystemRegistry`
