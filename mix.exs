@@ -22,8 +22,7 @@ defmodule SystemRegistry.TermStorage.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      #{:system_registry, "~> 0.5"}
-      {:system_registry, github: "nerves-project/system_registry", branch: "remove_term_storage"}
+      {:system_registry, "~> 0.7"}
     ]
   end
 end

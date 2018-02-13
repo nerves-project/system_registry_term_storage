@@ -1,1 +1,3 @@
-%{"system_registry": {:git, "https://github.com/nerves-project/system_registry.git", "5449f723fd508af4ba567adb96159040e2e79fb4", [branch: "remove_term_storage"]}}
+%{
+  "system_registry": {:hex, :system_registry, "0.7.0", "cd3aaf2c15392fa60f93869dde49f536fcf60e54f3b15db737e7d4ebcac108f4", [:mix], [], "hexpm"},
+}
