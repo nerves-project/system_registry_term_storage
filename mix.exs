@@ -7,6 +7,8 @@ defmodule SystemRegistry.TermStorage.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
+      description: description(),
+      package: package(),
       deps: deps()
     ]
   end
@@ -22,7 +24,20 @@ defmodule SystemRegistry.TermStorage.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, "~> 0.15", only: :dev},
       {:system_registry, "~> 0.7"}
     ]
+  end
+
+  defp description do
+    """
+    Simple term storage for System Registry
+    """
+  end
+
+  defp package do
+    [maintainers: ["Justin Schneck", "Frank Hunleth"],
+     licenses: ["Apache 2.0"],
+     links: %{"Github" => "https://github.com/nerves-project/system_registry_term_storage"}]
   end
 end
